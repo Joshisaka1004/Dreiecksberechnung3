@@ -36,7 +36,7 @@ class conversionVC: UIViewController, UITextFieldDelegate {
         let myN = NumberFormatter()
         myN.numberStyle = .decimal
         myN.minimumFractionDigits = 0
-        myN.maximumFractionDigits = 5
+        myN.maximumFractionDigits = 4
         return myN
     }()
     
